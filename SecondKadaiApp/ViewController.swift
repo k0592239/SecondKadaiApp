@@ -8,12 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    // 名前入力欄
+    @IBOutlet weak var nameInputField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // 遷移先の画面に値を渡す
+        let resultViewController:ResultViewController = segue.destination as! ResultViewController
+        resultViewController.name = nameInputField.text!
+    }
+
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+    }
 
 }
 

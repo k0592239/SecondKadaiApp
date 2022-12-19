@@ -30,8 +30,8 @@
                                     <segue destination="Wjd-ge-ga5" kind="show" id="mgS-VN-lzl"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KBS-Of-GP4">
-                                <rect key="frame" x="191" y="265" width="32" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ここに文字を入力します" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KBS-Of-GP4">
+                                <rect key="frame" x="114.5" y="265" width="185.5" height="34"/>
                                 <color key="backgroundColor" red="0.89196764470959244" green="1" blue="0.92632000048514518" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
